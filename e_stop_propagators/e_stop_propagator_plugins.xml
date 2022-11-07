@@ -1,0 +1,10 @@
+<library path="lib/libe_stop_propagators">
+    <!-- propagators -->
+    <class name="e_stop_propagators/NavPropagator" type="e_stop_manager::NavPropagator" base_class_type="e_stop_manager::EStopPropagator">
+        <description>navigation stop propagator</description>
+    </class>
+
+    <class name="e_stop_propagators/FlexNavPropagator" type="e_stop_manager::FlexNavPropagator" base_class_type="e_stop_manager::EStopPropagator">
+        <description>flex navigation stop propagator</description>
+    </class>
+</library>
